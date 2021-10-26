@@ -1,0 +1,61 @@
+body{
+    color: black;
+
+}
+
+.heading{
+    width:80%;
+    font-size:22px;
+
+}
+
+#camera{
+border : 2px dashed black;
+width: 350px;
+height:300px;
+background-color: white;
+box-shadow: 3px 3px 3px yellow;
+
+
+}
+
+.name_of_objects, #result_object_name, #result_object_accuracy{
+color:darkred;
+
+}
+
+#btn_click{
+    width:120px;
+    height:40px;
+    background-color: yellow;
+    padding: 5px;
+    color:black;
+}
+
+#btn_click:hover{
+animation-name: btn;
+animation-duration: 2s ;
+}
+
+@keyframes btn{
+from{background-color: yellow ;}
+to{background-color: green;}
+
+}
+
+#btn_identify{
+    width:120px;
+    height:40px;
+    background-color:green;
+    padding: 5px;
+    color:white;
+    border: 5px double white ;
+    animation-name: btn;
+animation-duration: 100s ;
+}
+
+@keyframes btn{
+from{border-color: white ;}
+to{border-color: orangered;}
+
+}
